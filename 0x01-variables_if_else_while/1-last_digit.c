@@ -1,6 +1,6 @@
-#inlcude <stdlib.h>
-#inlcude <time.h>
-#inlcude <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**
  * main - Entry point
  *

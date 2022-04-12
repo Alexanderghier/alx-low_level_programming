@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_times_tables - Prints the times table of the input,
  *                      starting with 0.

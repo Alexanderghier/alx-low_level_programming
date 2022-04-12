@@ -5,7 +5,7 @@
  *                      statting with 0.
  * @n: the value of the times table to be printed
  */
-void times_table(int n)
+void print_times_table(int n)
 {
 int num, mult, prod;
 

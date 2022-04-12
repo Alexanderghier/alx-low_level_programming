@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 /**
  * main - main block
  * Description: print -putcher in a new line

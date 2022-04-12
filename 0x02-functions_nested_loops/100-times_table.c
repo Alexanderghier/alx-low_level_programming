@@ -5,7 +5,7 @@
  *                      statting with 0.
  * @n: the value of the times table to be printed
  */
-void print_times_table(int n)
+void times_table(int n)
 {
 int num, mult, prod;
 
@@ -19,7 +19,7 @@ for (mult = 1; mult <= n; mult++)
 {
 _putchar(',');
 _putchar(' ');
-
+i
 prod = num * mult;
 
 if (prod <= 99)

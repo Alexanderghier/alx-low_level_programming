@@ -1,15 +1,33 @@
-#include "main.h"
 #include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
+#include <time.h>
+
 /**
+ * main - print password.
+ *
+ * Return: Always 0.
  */
+ 
 int main(void)
 {
-int num;
+char a[100];
+int r, n, i;
 
-srand(time(0));
-num = rand();
-printff("%i\n", num);
+n = 0;
+i = 0;
+srand(time(NULL));
+while(n < 2645)
+{
+r = rand() % 122;
+if (r > 32)
+{
+a[i++] = r;
+n += r;
+}
+}
+a[i++] = (2772 - n);
+a[i] = '\0';
+printf("%s", a);
+
 return (0);
 }
